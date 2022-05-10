@@ -76,8 +76,8 @@ a:focus {
   border-style: solid;
   border-color: transparent;
   border-top-color: #f1f1f1;
-  -webkit-animation: world 2400ms linear infinite;
-  animation: world 2400ms linear infinite;
+  -webkit-animation: world 2000ms linear infinite;
+  animation: world 2000ms linear infinite;
   z-index: 999;
 }
 #world-load:before {
@@ -92,8 +92,8 @@ a:focus {
   border-style: solid;
   border-color: transparent;
   border-top-color: #f1f1f1;
-  -webkit-animation: world 2700ms linear infinite;
-  animation: world 2700ms linear infinite;
+  -webkit-animation: world 2000ms linear infinite;
+  animation: world 2000ms linear infinite;
 }
 #world-load:after {
   content: "";
@@ -107,8 +107,8 @@ a:focus {
   border-style: solid;
   border-color: transparent;
   border-top-color: #f1f1f1;
-  -webkit-animation: world 1800ms linear infinite;
-  animation: world 1800ms linear infinite;
+  -webkit-animation: world 1000ms linear infinite;
+  animation: world 1000ms linear infinite;
 }
 @-webkit-keyframes world {
   0% {
