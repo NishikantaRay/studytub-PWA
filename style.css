@@ -1549,8 +1549,15 @@ footer {
   position: relative;
   width: 100%;
   height: auto;
-  /* padding: 50px 70px; */
+  padding: 50px 70px;
   background: #111;
+}
+
+/* media query for mobile view */
+@media (max-width: 768px) {
+  footer {
+    padding: 50px 20px;
+  }
 }
 
 footer .container {
